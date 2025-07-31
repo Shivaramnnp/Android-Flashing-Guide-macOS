@@ -149,7 +149,7 @@ This project was a valuable exercise in:
 ## 👨‍🎓 About Me
 ** N.Shivaram **  
 2nd Year B.Tech (CSM – AI & ML)  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)
+🔗 [LinkedIn](https://www.linkedin.com/posts/shivaram-nnp369_androiddevelopment-customrom-opensource-activity-7356723438264180736-9wJr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEeJAUwBavehwGyY3onfvGRHpPMTI1KOAJ8)
 
 ---
 
