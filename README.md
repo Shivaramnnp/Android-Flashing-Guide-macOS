@@ -4,11 +4,11 @@ A comprehensive guide and technical log for installing LineageOS 22 on a Redmi N
 
 A comprehensive guide and technical log detailing the process of unlocking the bootloader and flashing LineageOS 22 (Android 15) on a Redmi Note 9 Pro (India variant, codename: `curtana`) from a macOS environment.
 
-**Author:** N.SHIVARAM /n
-**Date:** July 2025 /n
-**Device:** Redmi Note 9 Pro (India) - `curtana` /n
-**Host OS:** macOS /n
-**Target OS:** LineageOS 22 (Android 15) /n
+*   **Author:** N.SHIVARAM
+*   **Date:** July 2025
+*   **Device:** Redmi Note 9 Pro (India) - `curtana`
+*   **Host OS:** macOS
+*   **Target OS:** LineageOS 22 (Android 15)
 
 ---
 
