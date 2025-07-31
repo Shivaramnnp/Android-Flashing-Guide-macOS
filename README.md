@@ -57,11 +57,14 @@ This phase covers the preparation and official unlocking process via Xiaomi's se
     # Install required dependencies
     pip install urllib3 pycryptodome requests
     ```
+    <img width="1470" height="920" alt="Generated Image July 31, 2025 - 5_57PM" src="https://github.com/user-attachments/assets/ccb16c77-3246-4fb6-8aad-9ea2963cc51c" />
+
 4.  **Execute Unlock Script:** With the phone in Fastboot Mode (Volume Down + Power), run the script. This initiates the mandatory 7-day waiting period.
     ```bash
     python3 MiUnlockTool.py
     ```
 5.  **Final Unlock:** After the waiting period, repeat step 4 to complete the unlock. The device will be wiped.
+<img width="1470" height="920" alt="Media item 1" src="https://github.com/user-attachments/assets/c8f0fdbf-f136-4d81-83d8-5e2845b8d0d8" />
 
 ---
 
@@ -81,17 +84,28 @@ With the bootloader unlocked, this phase details the installation of the custom 
     # Flash the recovery image
     ./fastboot flash recovery recovery.img
     ```
+    <img width="610" height="202" alt="Screenshot 2025-07-31 at 21 31 59" src="https://github.com/user-attachments/assets/232c93d0-e62f-41d9-8ea4-464683040320" />
+
 2.  **Boot into Recovery:** Manually reboot the phone directly into recovery (Volume Up + Power) to prevent it from being overwritten.
-3.  **Format Data:** In LineageOS Recovery, use the `Factory Reset -> Format data / factory reset` option.
-4.  **Sideload ROM & GApps:** In recovery, select `Apply update -> Apply from ADB`.
+<img width="643" height="421" alt="Screenshot 2025-07-31 at 21 41 10" src="https://github.com/user-attachments/assets/5af637aa-8cbc-4e24-b3c8-fd8eeb0996f5" />
+
+
+4.  **Format Data:** In LineageOS Recovery, use the `Factory Reset -> Format data / factory reset` option.
+5.  <img width="560" height="421" alt="Screenshot 2025-07-31 at 21 42 31" src="https://github.com/user-attachments/assets/4a144db7-3aa8-44cc-a9f3-9a1396f82117" />
+
+
+
+6.  **Sideload ROM & GApps:** In recovery, select `Apply update -> Apply from ADB`.
     ```bash
     # Sideload the LineageOS ROM
-    ./adb sideload lineage-22.zip
+    ./adb sideload lineage-22.2-20250728-nightly-miatoll-signed.zip
 
     # Immediately after, re-enter ADB Sideload mode and flash GApps
     ./adb sideload MindTheGapps-15.zip
     ```
-5.  **Reboot:** From the recovery main menu, select `Reboot system now`. The first boot will take several minutes.
+    <img width="643" height="202" alt="Screenshot 2025-07-31 at 21 36 30" src="https://github.com/user-attachments/assets/bd130e6c-dcb2-46ce-b08f-edc436b1aea4" />
+
+7.  **Reboot:** From the recovery main menu, select `Reboot system now`. The first boot will take several minutes.
 
 ---
 
@@ -120,8 +134,12 @@ This project involved overcoming several real-world technical challenges.
 ---
 
 ## Final Result & Key Learnings
-The device now runs LineageOS 22 smoothly, providing a significant performance boost and a clean, ad-free Android experience.
+The device now runs LineageOS 22 smoothly, providing a significant performance boost and a clean!
+ad-free Android experience.
 
+<img width="1470" height="972" alt="Screenshot 2025-07-31 at 21 47 34" src="https://github.com/user-attachments/assets/35a068ee-8aa2-4ac2-8750-7fca755faae9" />
+
+---
 This project was a valuable exercise in:
 *   **Command-Line Proficiency:** Gained practical experience with `adb`, `fastboot`, `cd`, `chmod`, `pip`, and `curl`.
 *   **Systematic Troubleshooting:** Learned to diagnose issues by isolating variables (e.g., testing the USB cable with `./fastboot devices`).
