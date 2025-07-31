@@ -144,3 +144,13 @@ This project was a valuable exercise in:
 *   **Command-Line Proficiency:** Gained practical experience with `adb`, `fastboot`, `cd`, `chmod`, `pip`, and `curl`.
 *   **Systematic Troubleshooting:** Learned to diagnose issues by isolating variables (e.g., testing the USB cable with `./fastboot devices`).
 *   **Persistence:** Successfully navigated a multi-day process with multiple failure points.
+
+----
+## 👨‍🎓 About Me
+** N.Shivaram **  
+2nd Year B.Tech (CSM – AI & ML)  
+🔗 [LinkedIn](https://linkedin.com/in/your-profile)
+
+---
+
+⭐ Star this repo if it helped you!
